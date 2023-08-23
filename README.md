@@ -1,9 +1,10 @@
-# stylishcv
-A tweaked version and fork of latex-ninja's simple-hipstercv latex package - creating fancy CVs in latex made easy!
+# stylishcv - creating fancy CVs in $\LaTeX$ made easy!
+A tweaked version and fork of latex-ninja's [simple-hipstercv](https://github.com/latex-ninja/simple-hipstercv) $\LaTeX$ package.
 
 The examples below are just for demonstration purposes - please use your own data and logos.
 
-*Images generated with OpenDream AI or from public domain*
+*Owl images are generated with OpenDream AI. Icons and cliparts are from public domain.*
+
 
 ## lightstylish Theme
 <table>
@@ -47,13 +48,18 @@ The examples below are just for demonstration purposes - please use your own dat
 ---
 
 ## Usage
-If you are using Miktex editor for Latex, you can use the included script *refreshMiktexPackageDB.sh* to copy the package files and update your LaTeX filenames and package databases:
+
+### Setup
+If you are using Miktex editor for $\LaTeX$, you can use the included script *refreshMiktexPackageDB.sh* to copy the package files and update your $\LaTeX$ filenames and package databases:
 `./refreshMiktexPackageDB.sh <Miktex Binary Directory> <Latex Package Directory>`
-In case you are using a different OS and/or LaTeX editor, it should work in a similar way.
+In case you are using a different OS and/or $\LaTeX$ editor, it should work in a similar way.
+
+### Usage
+Make your changes to the content, then compile your *Main.tex* file with `pdfLatTex`. Especially after making changes to the layout (e.g. header, footer, sidebar), you will have to run `pdfLaTeX` twice sometimes.
 
 
 ## Customizing the templates
-The templates contain a lot of comments to explain how to use the various LateX commands, environments and widgets. For the most part, they are the same as in simple-hipstercv, but some have been slightly modified or added (e.g. CV picture has been moved).
+The templates contain a lot of comments to explain how to use the various $\LaTeX$ commands, environments and widgets. For the most part, they are the same as in simple-hipstercv, but some have been slightly modified or added (e.g. CV picture has been moved).
 
 For example, `\simplefooter` and `\simplesubheader` should be pointed out, as well as `\begin{darkshadedcvbox}Title\end{darkshadedcvbox}` and `\begin{shadedcvbox}Title\end{shadedcvbox}\end{center}` for rounded box section headlines. Note that the examples do not make use of some of the widgets already contained in simple-hipstercv. They are still there and can be used though! Check simple-hipstercv or the code of *stylish.sty* to learn more.
 
@@ -64,6 +70,10 @@ Cover letter and attachments are loaded from separate files. Simply (un-)comment
 
 ### Colors
 You can use `[darkstylish]`, `[lightstylish]`and `[withoutsidebar]`options to change the theme of the document. Additionally, some color definitions are conveniently added (but commented out) at the top of *Main.tex*. Simply uncomment those lines to easily change colors without messing with the .sty and .cls files. For example, you can easily change the accent colors like this. Note that some of the theme options present in simple-hipstercv have been removed (e.g. pastel).
+
+
+### Comments
+The template works and looks as it should currently, bhere's certainly a lot in the code that could be cleaned up - feel free to improve it and build on the templates!
 
 ---
 
