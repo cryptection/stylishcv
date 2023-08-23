@@ -1,4 +1,8 @@
 # stylishcv - creating fancy CVs in $\LaTeX$ made easy!
+![LaTeX](https://img.shields.io/badge/LaTeX-MikTeX-green) ![Shell](https://img.shields.io/badge/Shell-bash-green)
+
+<!-- Shields.io base url: [Label](https://img.shields.io/badge/left-right-color)-->
+
 A tweaked version and fork of latex-ninja's [simple-hipstercv](https://github.com/latex-ninja/simple-hipstercv) $\LaTeX$ package.
 
 The examples below are just for demonstration purposes - please use your own data and logos.
@@ -77,10 +81,8 @@ The template works and looks as it should currently, bhere's certainly a lot in 
 
 ---
 
-### See also: Simple Hipster CV by latex-ninja
+#### See also: Simple Hipster CV by latex-ninja
 
 ![Simple Hipster CV](https://github.com/latex-ninja/simple-hipstercv/blob/master/hipster-styles.png)
 
 [Get it here.](https://github.com/latex-ninja/modern-simple-cv)
-
-
