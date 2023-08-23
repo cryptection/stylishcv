@@ -59,7 +59,7 @@ If you are using Miktex editor for $\LaTeX$, you can use the included script *re
 In case you are using a different OS and/or $\LaTeX$ editor, it should work in a similar way.
 
 ### Usage
-Make your changes to the content, then compile your *Main.tex* file with `pdfLatTex`. Especially after making changes to the layout (e.g. header, footer, sidebar), you will have to run `pdfLaTeX` twice sometimes.
+Use the files from the Examples folder. Make your changes to the content in the *.tex* files, then compile your *Main.tex* file with `pdfLatTex`. Especially after making changes to the layout (e.g. header, footer, sidebar), you will have to run `pdfLaTeX` twice sometimes.
 
 
 ## Customizing the templates
