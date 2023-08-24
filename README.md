@@ -24,7 +24,7 @@ The examples below are just for demonstration purposes - please use your own dat
 6. [Disclaimer](#Disclaimer)
 
 
-## lightstylish Theme <a name="lightstylish"></a>
+## lightstylish Theme<a name="lightstylish"></a>
 <table>
   <tr>
     <td> <img src="https://github.com/cryptection/stylishcv/blob/main/Examples/Screenshots/lightstylish/CV1.png"  alt="1" width = 360px></td>
@@ -37,7 +37,7 @@ The examples below are just for demonstration purposes - please use your own dat
   </tr>
 </table>
 
-## darkstylish Theme <a name="darkstylish"></a>
+## darkstylish Theme<a name="darkstylish"></a>
 <table>
   <tr>
     <td> <img src="https://github.com/cryptection/stylishcv/blob/main/Examples/Screenshots/darkstylish/CV1.png"  alt="1" width = 360px></td>
@@ -50,7 +50,7 @@ The examples below are just for demonstration purposes - please use your own dat
   </tr>
 </table>
 
-## withoutsidebar Theme <a name="withoutsidebar"></a>
+## withoutsidebar Theme<a name="withoutsidebar"></a>
 <table>
   <tr>
     <td> <img src="https://github.com/cryptection/stylishcv/blob/main/Examples/Screenshots/withoutsidebar/CV1.png"  alt="1" width = 360px></td>
@@ -65,37 +65,37 @@ The examples below are just for demonstration purposes - please use your own dat
 
 ---
 
-## Setup, Usage and Customization <a name="Usage"></a>
+## Setup, Usage and Customization<a name="Usage"></a>
 
-### Setup <a name="Setup"></a>
+### Setup<a name="Setup"></a>
 If you are using Miktex editor for $\LaTeX$, you can use the included script *refreshMiktexPackageDB.sh* to copy the package files and update your $\LaTeX$ filenames and package databases:
 `./refreshMiktexPackageDB.sh <Miktex Binary Directory> <Latex Package Directory>`
 In case you are using a different OS and/or $\LaTeX$ editor, it should work in a similar way.
 
-### Usage <a name="Usage2"></a>
+### Usage<a name="Usage2"></a>
 Use the files from the Examples folder. Make your changes to the content in the *.tex* files, then compile your *Main.tex* file with `pdfLatTex`. Especially after making changes to the layout (e.g. header, footer, sidebar), you will have to run `pdfLaTeX` twice sometimes.
 
 
-## Customizing the templates <a name="Customizing"></a>
+## Customizing the templates<a name="Customizing"></a>
 The templates contain a lot of comments to explain how to use the various $\LaTeX$ commands, environments and widgets. For the most part, they are the same as in simple-hipstercv, but some have been slightly modified or added (e.g. CV picture has been moved).
 
 For example, `\simplefooter` and `\simplesubheader` should be pointed out, as well as `\begin{darkshadedcvbox}Title\end{darkshadedcvbox}` and `\begin{shadedcvbox}Title\end{shadedcvbox}\end{center}` for rounded box section headlines. Note that the examples do not make use of some of the widgets already contained in simple-hipstercv. They are still there and can be used though! Check simple-hipstercv or the code of *stylish.sty* to learn more.
 
 
-### Cover Letter and Attachments <a name="Letter"></a>
+### Cover Letter and Attachments<a name="Letter"></a>
 Cover letter and attachments are loaded from separate files. Simply (un-)comment the lines to (not) load them in the *Main.tex' files depending on your needs. You can make the actual changes to the content in *Attachments.tex* resp. *Letter.tex*.
 
 
-### Colors <a name="Colors"></a>
+### Colors<a name="Colors"></a>
 You can use `[darkstylish]`, `[lightstylish]`and `[withoutsidebar]`options to change the theme of the document. Additionally, some color definitions are conveniently added (but commented out) at the top of *Main.tex*. Simply uncomment those lines to easily change colors without messing with the .sty and .cls files. For example, you can easily change the accent colors like this. Note that some of the theme options present in simple-hipstercv have been removed (e.g. pastel).
 
 
-## Comments <a name="Comments"></a>
+## Comments<a name="Comments"></a>
 The template works and looks as it should currently, bhere's certainly a lot in the code that could be cleaned up - feel free to improve it and build on the templates!
 
 ---
 
-## Disclaimer <a name="Disclaimer"></a>
+## Disclaimer<a name="Disclaimer"></a>
 This software and template are distributed "as is", with no warranty expressed or implied, and no guarantee for accuracy or applicability to any purpose.
 
 ---
