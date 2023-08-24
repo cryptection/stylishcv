@@ -22,6 +22,7 @@ The examples below are just for demonstration purposes - please use your own dat
     5. [Colors](#Colors)
 5. [Comments](#Comments)
 6. [Disclaimer](#Disclaimer)
+7. [See Also](#See)
 
 
 ## lightstylish Theme<a name="lightstylish"></a>
@@ -100,7 +101,7 @@ This software and template are distributed "as is", with no warranty expressed o
 
 ---
 
-#### See also: Simple Hipster CV by latex-ninja
+#### See also: Simple Hipster CV by latex-ninja<a name="See"></a>
 
 ![Simple Hipster CV](https://github.com/latex-ninja/simple-hipstercv/blob/master/hipster-styles.png)
 
