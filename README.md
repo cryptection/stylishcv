@@ -16,7 +16,7 @@ The examples below are just for demonstration purposes - please use your own dat
 3. [withoutsidebar Theme](#withoutsidebar)
 4. [Setup, Usage and Customization](#Usage)
     1. [Setup](#Setup)
-    2. [Usage](#Usage2)
+    2. [Usage](#Usages)
     3. [Customizing](#Customizing)
     4. [Cover Letters and Attachments](#Letter)
     5. [Colors](#Colors)
@@ -72,7 +72,7 @@ If you are using Miktex editor for $\LaTeX$, you can use the included script *re
 `./refreshMiktexPackageDB.sh <Miktex Binary Directory> <Latex Package Directory>`
 In case you are using a different OS and/or $\LaTeX$ editor, it should work in a similar way.
 
-### Usage<a name="Usage2"></a>
+### Usage<a name="Usages"></a>
 Use the files from the Examples folder. Make your changes to the content in the *.tex* files, then compile your *Main.tex* file with `pdfLatTex`. Especially after making changes to the layout (e.g. header, footer, sidebar), you will have to run `pdfLaTeX` twice sometimes.
 
 
