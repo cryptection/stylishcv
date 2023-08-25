@@ -1,8 +1,15 @@
 # stylishcv - creating fancy CVs in $\LaTeX$ made easy!
-![LaTeX](https://img.shields.io/badge/LaTeX-grey)   ![LaTeX](https://img.shields.io/badge/LaTeX-MikTeX-green)   ![Shell](https://img.shields.io/badge/Shell-bash-green)
+
+#### Information
+![GitHub Latest Release)](https://img.shields.io/github/v/release/cryptection/stylishcv?logo=github&color=yellow) [![Github All Releases](https://img.shields.io/github/downloads/cryptection/stylishcv/total?color=blue&logo=github)]() 
+[![Github Latest](https://img.shields.io/github/downloads/cryptection/stylishcv/latest/total?color=blue&logo=github)]() [![Seaches](https://img.shields.io/github/search/cryptection/stylishcv/total?color=orange&logo=github)]() 
+
+#### Tech Stack
+![LaTeX](https://img.shields.io/badge/LaTeX-grey)   ![LaTeX](https://img.shields.io/badge/LaTeX-MikTeX-green)   ![Shell](https://img.shields.io/badge/Shell-bash-green) 
 
 <!-- Shields.io base url: [Label](https://img.shields.io/badge/left-right-color)-->
 
+#### Description
 A tweaked version and fork of latex-ninja's [simple-hipstercv](https://github.com/latex-ninja/simple-hipstercv) $\LaTeX$ package.
 
 The examples below are just for demonstration purposes - please use your own data and logos.
