@@ -10,7 +10,7 @@
 <!-- Shields.io base url: [Label](https://img.shields.io/badge/left-right-color)-->
 
 #### Description
-A tweaked version and fork of latex-ninja's [simple-hipstercv](https://github.com/latex-ninja/simple-hipstercv) $\LaTeX$ package.
+A tweaked version and fork of [latex-ninja](https://github.com/latex-ninja)'s [simple-hipstercv](https://github.com/latex-ninja/simple-hipstercv) $\LaTeX$ package.
 
 The examples below are just for demonstration purposes - please use your own data and logos.
 
