@@ -1,4 +1,4 @@
-# stylishcv - creating fancy CVs in $\LaTeX$ made easy!
+# stylishcv - creating fancy CVs in $`\LaTeX`$ made easy!
 
 #### Information
 ![GitHub Latest Release)](https://img.shields.io/github/v/release/cryptection/stylishcv?logo=github&color=yellow) [![Github All Releases](https://img.shields.io/github/downloads/cryptection/stylishcv/total?color=blue&logo=github)]() 
