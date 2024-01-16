@@ -66,7 +66,7 @@
 
 
 \newcommand{\cvtag}[1]{% from alta-cv: https://www.overleaf.com/latex/templates/altacv-template/trgqjpwnmtgv
-  \tikz[baseline]\node[draw=black!40,rounded corners,inner sep=0.4em,minimum height={0.5cm}]{\color{black!50}#1};
+  \tikz[baseline]\node[draw=black!50,rounded corners,inner sep=0.4em,minimum height={0.5cm}]{\color{black!50}{\scriptsize#1}};
 }
 
 
@@ -122,17 +122,17 @@
 \newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.} % Dummy text
 
 %--------------------------------------------------- pictures
-\newcommand{\roundpic}[1]{\begin{figure}[H]\vspace{-2.5cm}\hspace{9pt}\tikz  \draw [path picture={ \node at (path picture bounding box.center){\includegraphics[height=3.6cm]{#1}} ;}, line width=1mm, accentcolor] (0,2) circle (1.7) ;\end{figure}}
+\newcommand{\roundpic}[1]{\begin{figure}[H]\begin{center}\vspace{-2.5cm}\tikz  \draw [path picture={ \node at (path picture bounding box.center){\includegraphics[height=3.6cm]{#1}} ;}, line width=1mm, accentcolor] (0,2) circle (1.7) ;\end{center}\end{figure}}
 
-\newcommand{\squarepic}[1]{\begin{figure}[H]\vspace{-2.89cm}\tikz  \draw [path picture={ \node at (path picture bounding box.center){\includegraphics[height=3.5cm]{#1}} ;}, line width=1mm, accentcolor] (0,0) - - (-2,2) - - (0,4) - - (2,2) - - cycle ;\end{figure}}
+\newcommand{\squarepic}[1]{\begin{figure}[H]\begin{center}\vspace{-2.89cm}\tikz  \draw [path picture={ \node at (path picture bounding box.center){\includegraphics[height=3.5cm]{#1}} ;}, line width=1mm, accentcolor] (0,0) - - (-2,2) - - (0,4) - - (2,2) - - cycle ;\end{center}\end{figure}}
 
 
 %------------------------------------ pictoFraction
 \newcommand{\icon}[3]{\phantom{x}{#3\color{#2}#1}\phantom{x}}
 %------------------- pictogram Fraction: pictoFraction
 \newcommand{\pictofraction}[6]{%
-\pgfmathparse{#3 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#2}{#6}}%
-\pgfmathparse{#5 - 1}\ifnum0<#5\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#4}{#6}}\else{}\fi
+\pgfmathparse{#3 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#2}{#6}\hspace{-0.1cm}}%
+\pgfmathparse{#5 - 1}\ifnum0<#5\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#4}{#6}\hspace{-0.1cm}}\else{}\fi
 }%
 
 
@@ -192,7 +192,7 @@
 
 \newcommand{\cvdegree}[6]{{#1} & \textbf{#2}\newline\textsc{#3} \ifthenelse{\equal{#3}{}}{}{\ifthenelse{\equal{#4}{}}{}{$\cdot$}} {\ifthenelse{\equal{#4}{}}{}{\textcolor{accentcolor}{\faUniversity}~#4}}\newline{\color{black!70}\footnotesize #5}\vspace{1.5em} & \raisebox{-0.7\height}{\includegraphics[height=1cm]{#6}}}
 
-\newcommand{\cvcertificate}[7]{{#1} & \textbf{#2}\newline\textsc{#3} \ifthenelse{\equal{#3}{}}{}{\ifthenelse{\equal{#4}{}}{}{$\cdot$}} {\ifthenelse{\equal{#4}{}}{}{\textcolor{accentcolor}{\faCertificate}~#4}}\newline{\color{black!70}\footnotesize #5}\vspace{1.5em} & \raisebox{-0.7\height}{\href{#7}{\includegraphics[height=1cm]{#6}}}}
+\newcommand{\cvcertificate}[7]{{#1} & \textbf{#2}\newline\textsc{#3} \ifthenelse{\equal{#3}{}}{}{\ifthenelse{\equal{#4}{}}{}{$\cdot$}} {~#4}\newline{\color{black!70}\footnotesize #5}\vspace{1.5em} & \raisebox{-0.7\height}{\href{#7}{\includegraphics[height=1cm]{#6}}}}
 
 
 
@@ -349,6 +349,10 @@
 
 \newcommand{\resetcolor}{\color{fontcolor}}
 
+
+\newcommand{\keyword}[1]{\textcolor{accentcolor}{\scriptsize \faHashtag}\textcolor{black!60}{\textbf{#1}}}
+
+\newcommand{\certification}[1]{\textcolor{accentcolor}{\scriptsize \faCertificate}\textcolor{black!60}{\textbf{~#1}}}
 
 
 
